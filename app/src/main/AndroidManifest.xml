@@ -21,3 +21,5 @@
         </activity>
 
         <service android:name=".NoEscapeService" android:foregroundServiceType="mediaPlayback" android:exported="false" />
+</application>
+</manifest>
