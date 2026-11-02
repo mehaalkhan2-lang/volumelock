@@ -20,6 +20,4 @@
             </intent-filter>
         </activity>
 
-        <service
-            android:name=".NoEscapeService"
-            android:
+        <service android:name=".NoEscapeService" android:foregroundServiceType="mediaPlayback" android:exported="false" />
